@@ -124,6 +124,7 @@ main {
 }
 
 /* RESULTS */
+
 #results {
   background-color: var(--blue);
   color: var(--white);
@@ -206,11 +207,11 @@ main {
   }
   
   #contact input,
-  #contact textarea {
-    background-color: #1a1a1a;
-    color: var(--white);
-    border: 1px solid #444;
-  }
+#contact textarea {
+  background-color: white;
+  color: var(--black);
+  border: 1px solid #ccc;
+}
   
   #contact input::placeholder,
   #contact textarea::placeholder {
